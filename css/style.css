@@ -189,6 +189,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	top:100%;
 	left:0;
 }
+/* color for the moving text */
 .prt_heading p{
     text-align: right;
     width: auto;
@@ -199,7 +200,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     position: absolute;
     right: 0;
     bottom: -10px;
-	color:#f6483b;
+	color:purple;
     font-weight: 500;
 }
 .prt_heading_wrapper_2{
@@ -223,8 +224,8 @@ input:focus, textarea:focus, select:focus, button:focus {
     display: inline-block;
 	text-align:center;
 	text-transform:capitalize;
-	background-color:#f6483b;
-	border:1px solid #f6483b;
+	background-color:purple;
+	border:1px solid purple;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -232,9 +233,9 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_btn:hover, .prt_btn:focus{
-    color: #f6483b;
+    color: purple;
     background-color: #111111;
-	border:1px solid #f6483b;
+	border:1px solid purple;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -270,7 +271,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_home_wrapper h1{
 	position:absolute;
-	/* top:50%; */
+	top:50%;
 	font-size:100px;
 	color: #ffffff;
 	font-weight:bold;
@@ -463,7 +464,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_about_learnbox_right:hover:after{
 	background-color: #ffffff;
-    border: 3px solid #f6483b;
+    border: 3px solid purple;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -501,7 +502,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_about_learnbox_left:hover:after{
 	background-color: #ffffff;
-    border: 3px solid #f6483b;
+    border: 3px solid purple;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -509,7 +510,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_about_learnbox_right:hover .prt_about_learnbox_year h1{
-	color:#f6483b;
+	color:purple;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -517,7 +518,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_about_learnbox_left:hover .prt_about_learnbox_year h1{
-	color:#f6483b;
+	color:purple;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -639,7 +640,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_about_experiencebox:hover .prt_about_experience_year h1{
-	color:#f6483b;
+	color:purple;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -898,7 +899,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_contact_details_box p a:hover{
-	color:#f6483b;
+	color:purple;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -1350,7 +1351,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_footer_wrapper p a:hover{
-	color:#f6483b;
+	color:purple;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -1390,7 +1391,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_footer_wrapper ul li a:hover{
 	color:#ffffff;
-	background-color:#f6483b;
+	background-color:purple;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -1403,8 +1404,10 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_counter_box {
     padding-left: 50px;
 }
+
+/* FONT SIZE ON THE HOME */
 .prt_home_wrapper h1 {
-    font-size: 120px;
+  font-size: 100px;
 	margin:0px;
 }
 }
