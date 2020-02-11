@@ -270,6 +270,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     padding: 200px 0px;
 }
 .prt_home_wrapper h1{
+	padding: 10px;
 	position:absolute;
 	top:50%;
 	font-size:100px;
@@ -278,7 +279,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	background: url(http://placehold.it/650X800) no-repeat;
 		background-color: #222;
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: #A8A6D3;
     background-size: cover;
     background-position: -41px -85px;
 }
@@ -1369,13 +1370,14 @@ input:focus, textarea:focus, select:focus, button:focus {
 	display:inline-block;
 	width:auto;
 	list-style:none;
-	margin:0px 5px;
+	margin:0px 15px;
 }
 .prt_footer_wrapper ul li:last-child{
 	margin-right:0px;
 }
 .prt_footer_wrapper ul li:first-child{
 	margin-left:0px;
+
 }
 .prt_footer_wrapper ul li a{
 	display:inline-block;
