@@ -402,6 +402,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_about_img img{
 	display:inline-block;
+	padding-top: 50px;
 }
 .prt_about_details{
 	display:inline-block;
