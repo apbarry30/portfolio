@@ -260,8 +260,10 @@ input:focus, textarea:focus, select:focus, button:focus {
 	background-color: #000000;
 }
 .prt_home_wrapper{
-	/* background-image:url(http://placehold.it/1920X1080); */
-				background-color: #222;
+	background-image:url("../images/background.jpg");
+
+				/* background-color: #222;
+				http://placehold.it/1920X1080 */
 	background-position: center center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -1083,6 +1085,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     display: inline-block;
     width: 100%;
 	background-image:url(http://placehold.it/1920X600);
+		/* http://placehold.it/1920X600 */
 	background-position:center center;
 	background-repeat:no-repeat;
 	background-size:cover;
