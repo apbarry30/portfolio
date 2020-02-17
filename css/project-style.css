@@ -1,0 +1,39 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #b7b7b7;
+	background-color:#222;
+	-webkit-font-smoothing: antialiased;
+}
+
+.prt_home_wrapper{
+  background-image:none;
+  background-color: #222;
+}
+
+h1 {
+  color: #A8A6D3;
+  font-weight: 500;
+  font-size: 75px;
+  text-align: center;
+  margin-top:40px;
+}
+
+h2,h3,h4{
+  font-size: 20px;
+  color: #A8A6D3;
+}
+
+.prt_logo_wrapper img{
+    position: absolute;
+/* changed from fixed to absolute */
+    left: 50px;
+    top: 50px;
+    z-index: 2;
+	-webkit-animation: rotate 2s linear infinite;
+	-moz-animation: rotate 2s linear infinite;
+	-o-animation: rotate 2s linear infinite;
+	-ms-animation: rotate 2s linear infinite;
+	animation: rotate 2s linear infinite;
+}
