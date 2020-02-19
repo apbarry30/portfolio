@@ -141,9 +141,9 @@ table.style-2 tr:nth-child(even){ color: #949494; }
 .portfolio-item-filter a.active, .portfolio-item-filter a:hover{ color: #282d36; }
 .gdlr-image-link-shortcode .gdlr-image-link-overlay, .portfolio-thumbnail .portfolio-overlay{ background-color: #0a0101; }
 .gdlr-image-link-shortcode .gdlr-image-link-icon, .portfolio-thumbnail .portfolio-icon i, .gdlr-modern-portfolio .portfolio-title{ color: #ffffff; }
-.portfolio-title a{ color: #303030; }
-.portfolio-title a:hover{ color: #7f7f7f; }
-.portfolio-info, .portfolio-info a{ color: #a2a2a2; }
+.portfolio-title a{ color: white; }
+.portfolio-title a:hover{ color: #A8A6D3; }
+.portfolio-info, .portfolio-info a{ color: #A8A6D3; }
 .portfolio-item-holder .gdlr-modern-portfolio .portfolio-title a{ color: #4d4d4d; }
 .portfolio-item-holder .gdlr-modern-portfolio .portfolio-title a{ background: #ffffff; }
 .portfolio-item-holder .gdlr-modern-portfolio .portfolio-title a:hover{ color: #ffffff; }
@@ -226,7 +226,7 @@ html .woocommerce .quantity .plus, html .woocommerce #content .quantity .plus,  
 html .woocommerce .quantity .minus, html .woocommerce #content .quantity .minus,  html .woocommerce-page .quantity .minus,html .woocommerce-page #content .quantity .minus, html .woocommerce .quantity .minus:hover, html .woocommerce #content .quantity .minus:hover,html .woocommerce-page .quantity .minus:hover,  html .woocommerce-page #content .quantity .minus:hover{ background: #b6b6b6; }
 .gdlr-skin-dark-skin, .gdlr-skin-dark-skin .gdlr-skin-content{ color: #ffffff; }
 .gdlr-skin-dark-skin i, .gdlr-skin-dark-skin .gdlr-flex-prev, .gdlr-skin-dark-skin .gdlr-flex-next{ color: #ffffff; }
-.gdlr-skin-dark-skin .gdlr-skin-dark-skin h2, .gdlr-skin-dark-skin h3, .gdlr-skin-dark-skin h4, .gdlr-skin-dark-skin h5, .gdlr-skin-dark-skin h6, .gdlr-skin-dark-skin .gdlr-skin-title, .gdlr-skin-dark-skin .gdlr-skin-title a{ color: #ffffff; }
+.gdlr-skin-dark-skin .gdlr-skin-dark-skin h2, .gdlr-skin-dark-skin, .gdlr-skin-dark-skin h4, .gdlr-skin-dark-skin h5, .gdlr-skin-dark-skin h6, .gdlr-skin-dark-skin .gdlr-skin-title, .gdlr-skin-dark-skin .gdlr-skin-title a{ color: #ffffff; }
 .gdlr-skin-dark-skin .gdlr-skin-title a:hover{ color: #ffffff; }
 .gdlr-skin-dark-skin .gdlr-skin-info, .gdlr-skin-dark-skin .gdlr-skin-info a, .gdlr-skin-dark-skin .gdlr-skin-info a:hover{ color: #ffffff; }
 .gdlr-skin-dark-skin a, .gdlr-skin-dark-skin .gdlr-skin-link, .gdlr-skin-dark-skin .gdlr-skin-link-color{ color: #f7c51e; }
@@ -237,7 +237,7 @@ html .woocommerce .quantity .minus, html .woocommerce #content .quantity .minus,
 .gdlr-skin-dark-skin .gdlr-button, .gdlr-skin-dark-skin .gdlr-button:hover, .gdlr-skin-dark-skin input[type="button"], .gdlr-skin-dark-skin input[type="submit"]{ color: #ffffff; background-color: #f7c51e;  }
 .gdlr-skin-dark-service, .gdlr-skin-dark-service .gdlr-skin-content{ color: #ffffff; }
 .gdlr-skin-dark-service i, .gdlr-skin-dark-service .gdlr-flex-prev, .gdlr-skin-dark-service .gdlr-flex-next{ color: #ffffff; }
-.gdlr-skin-dark-service, .gdlr-skin-dark-service h2, .gdlr-skin-dark-service h3, .gdlr-skin-dark-service h4, .gdlr-skin-dark-service h5, .gdlr-skin-dark-service h6, .gdlr-skin-dark-service .gdlr-skin-title, .gdlr-skin-dark-service .gdlr-skin-title a{ color: #ffffff; }
+.gdlr-skin-dark-service, .gdlr-skin-dark-service h2, .gdlr-skin-dark-service, .gdlr-skin-dark-service h4, .gdlr-skin-dark-service h5, .gdlr-skin-dark-service h6, .gdlr-skin-dark-service .gdlr-skin-title, .gdlr-skin-dark-service .gdlr-skin-title a{ color: #ffffff; }
 .gdlr-skin-dark-service .gdlr-skin-title a:hover{ color: #ffffff; }
 .gdlr-skin-dark-service .gdlr-skin-info, .gdlr-skin-dark-service .gdlr-skin-info a, .gdlr-skin-dark-service .gdlr-skin-info a:hover{ color: #ffffff; }
 .gdlr-skin-dark-service a, .gdlr-skin-dark-service .gdlr-skin-link, .gdlr-skin-dark-service .gdlr-skin-link-color{ color: #ffffff; }
@@ -248,7 +248,7 @@ html .woocommerce .quantity .minus, html .woocommerce #content .quantity .minus,
 .gdlr-skin-dark-service .gdlr-button, .gdlr-skin-dark-service .gdlr-button:hover, .gdlr-skin-dark-service input[type="button"], .gdlr-skin-dark-service input[type="submit"]{ color: #ffffff; background-color: #ffffff;  }
 .gdlr-skin-light-grey, .gdlr-skin-light-grey .gdlr-skin-content{ color: #999999; }
 .gdlr-skin-light-grey i, .gdlr-skin-light-grey .gdlr-flex-prev, .gdlr-skin-light-grey .gdlr-flex-next{ color: #969696; }
-.gdlr-skin-light-grey .gdlr-skin-light-grey h2, .gdlr-skin-light-grey h3, .gdlr-skin-light-grey h4, .gdlr-skin-light-grey h5, .gdlr-skin-light-grey h6, .gdlr-skin-light-grey .gdlr-skin-title, .gdlr-skin-light-grey .gdlr-skin-title a{ color: #3d506d; }
+.gdlr-skin-light-grey .gdlr-skin-light-grey h2, .gdlr-skin-light-grey, .gdlr-skin-light-grey h4, .gdlr-skin-light-grey h5, .gdlr-skin-light-grey h6, .gdlr-skin-light-grey .gdlr-skin-title, .gdlr-skin-light-grey .gdlr-skin-title a{ color: #3d506d; }
 .gdlr-skin-light-grey .gdlr-skin-title a:hover{ color: #517099; }
 .gdlr-skin-light-grey .gdlr-skin-info, .gdlr-skin-light-grey .gdlr-skin-info a, .gdlr-skin-light-grey .gdlr-skin-info a:hover{ color: #828282; }
 .gdlr-skin-light-grey a, .gdlr-skin-light-grey .gdlr-skin-link, .gdlr-skin-light-grey .gdlr-skin-link-color{ color: #f7c51e; }
@@ -259,7 +259,7 @@ html .woocommerce .quantity .minus, html .woocommerce #content .quantity .minus,
 .gdlr-skin-light-grey .gdlr-button, .gdlr-skin-light-grey .gdlr-button:hover, .gdlr-skin-light-grey input[type="button"], .gdlr-skin-light-grey input[type="submit"]{ color: #a3a3a3; background-color: #f2f2f2;  }
 .gdlr-skin-homepage-project, .gdlr-skin-homepage-project .gdlr-skin-content{ color: #ffffff; }
 .gdlr-skin-homepage-project i, .gdlr-skin-homepage-project .gdlr-flex-prev, .gdlr-skin-homepage-project .gdlr-flex-next{ color: #ffffff; }
-.gdlr-skin-homepage-project .gdlr-skin-homepage-project h2, .gdlr-skin-homepage-project h3, .gdlr-skin-homepage-project h4, .gdlr-skin-homepage-project h5, .gdlr-skin-homepage-project h6, .gdlr-skin-homepage-project .gdlr-skin-title, .gdlr-skin-homepage-project .gdlr-skin-title a{ color: #f7c51e; }
+.gdlr-skin-homepage-project .gdlr-skin-homepage-project h2, .gdlr-skin-homepage-project, .gdlr-skin-homepage-project h4, .gdlr-skin-homepage-project h5, .gdlr-skin-homepage-project h6, .gdlr-skin-homepage-project .gdlr-skin-title, .gdlr-skin-homepage-project .gdlr-skin-title a{ color: #f7c51e; }
 .gdlr-skin-homepage-project .gdlr-skin-title a:hover{ color: #f7c51e; }
 .gdlr-skin-homepage-project .gdlr-skin-info, .gdlr-skin-homepage-project .gdlr-skin-info a, .gdlr-skin-homepage-project .gdlr-skin-info a:hover{ color: #ffffff; }
 .gdlr-skin-homepage-project a, .gdlr-skin-homepage-project .gdlr-skin-link, .gdlr-skin-homepage-project .gdlr-skin-link-color{ color: #747c89; }

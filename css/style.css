@@ -31,6 +31,7 @@ body {
 	display:none;
 }
 
+
 .typed-cursor{
 	display:none;
 }
@@ -276,13 +277,13 @@ input:focus, textarea:focus, select:focus, button:focus {
     padding: 200px 0px;
 }
 .prt_home_wrapper h1{
-	padding: 10px;
-	position:absolute;
+	padding: 15px;
+	position:relative;
 	top:50%;
-	font-size:100px;
+	font-size:90px;
 	color: #ffffff;
 	font-weight:bold;
-	background: url(http://placehold.it/650X800) no-repeat;
+	/* background: url(http://placehold.it/650X800) no-repeat; */
 		background-color: #222;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: #A8A6D3;
@@ -1347,10 +1348,10 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_footer_wrapper p{
     display: inline-block;
-	width:auto;
-	text-align:left;
-	color:#ffffff;
-	margin:0px;
+		width:auto;
+		text-align:left;
+		color:#ffffff;
+		margin:0px;
     padding-top: 5px;
 }
 .prt_footer_wrapper p a{
@@ -1370,7 +1371,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_footer_wrapper ul{
-    float:right;
+  float:right;
 	width:auto;
 	margin:0px;
 	padding:0px;
@@ -1390,7 +1391,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_footer_wrapper ul li a{
 	display:inline-block;
-	width:30px;
+	width:70px;
 	height:30px;
 	line-height:30px;
 	text-align:center;
@@ -1422,8 +1423,18 @@ input:focus, textarea:focus, select:focus, button:focus {
   font-size: 100px;
 	margin:0px;
 }
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
+	.prt_home_wrapper{
+		background-image:none;
+		background-color: #222;
+	}
+	#backgroundimage{
+		margin: 0;
+		display:inline;
+	}
+
 .prt_profile_slider {
     padding-top: 0px;
     margin-bottom: 50px;
@@ -1463,16 +1474,29 @@ input:focus, textarea:focus, select:focus, button:focus {
     margin: 0px auto;
 }
 .prt_home_wrapper h1 {
-    font-size: 90px;
-	margin:0px;
+    font-size: 70px;
+		margin-top: 200px;
+		text-align: center;
 }
+
 }
 @media (max-width: 767px) {
-.prt_home_wrapper h1 {
-    font-size: 90px;
-	margin:0px;
-	text-align: center;
-}
+	.prt_home_wrapper{
+		background-image:none;
+		background-color: #222;
+	}
+	#backgroundimage{
+		margin: 0;
+		display:inline;
+	}
+
+	.prt_home_wrapper h1 {
+		padding:10px;
+		margin-top: 150px;
+	    font-size: 50px;
+			text-align: center;
+	}
+
 .prt_profile_slider {
     padding-top: 0px;
     margin-bottom: 50px;
@@ -1519,16 +1543,38 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 }
 @media (min-width: 620px) and (max-width: 700px) {
-.prt_services_slider_imgs {
-    margin-left: 120px;
-}
-}
-@media (min-width: 540px) and (max-width: 619px) {
 	.prt_home_wrapper{
 		background-image:none;
 		background-color: #222;
 	}
 	#backgroundimage{
+		margin: 0;
+		display:inline;
+	}
+
+	.prt_home_wrapper h1 {
+		padding:10px;
+		margin-top: 150px;
+	    font-size: 50px;
+	}
+
+.prt_services_slider_imgs {
+    margin-left: 120px;
+}
+}
+@media (min-width: 540px) and (max-width: 619px) {
+	.prt_home_wrapper h1 {
+		padding:10px;
+		margin-top: 150px;
+	    font-size: 50px;
+	}
+
+	.prt_home_wrapper{
+		background-image:none;
+		background-color: #222;
+	}
+	#backgroundimage{
+		margin: 0;
 		display:inline;
 	}
 .prt_services_slider_imgs {
@@ -1536,6 +1582,11 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 }
 @media (max-width: 539px) {
+	.prt_home_wrapper h1 {
+		padding:10px;
+		margin-top: 150px;
+	    font-size: 50px;
+	}
 	.prt_home_wrapper{
 		background-image:none;
 		background-color: #222;
@@ -1549,7 +1600,9 @@ input:focus, textarea:focus, select:focus, button:focus {
     margin-left: 0px;
 }
 }
-@media (min-width: 480px) and (max-width: 767px) {}
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
 @media (max-width: 479px) {
 	.prt_home_wrapper{
 		background-image:none;
@@ -1565,6 +1618,8 @@ input:focus, textarea:focus, select:focus, button:focus {
     font-size: 34px;
 }
 .prt_home_wrapper h1 {
+	padding:10px;
+	margin-top: 100px;
     font-size: 50px;
 }
 .prt_counter_box {
