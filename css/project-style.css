@@ -18,11 +18,14 @@ body {
 }
 
 
-h2,h3,h4{
+h2,h3,h4, .h5{
   font-size: 20px;
   color: #A8A6D3;
 }
 
+.col-xs-b35{
+  width: auto;
+}
 .prt_main_wrapper{
 	position:relative;
 	overflow-x:hidden;
@@ -59,6 +62,16 @@ h2,h3,h4{
 .entry:hover{
   color: #A8A6D3;
 }
+
+.grey ul{
+  margin:0;
+  padding:0;
+}
+
+
+
+
+
 
 
 #content-block{position: relative; overflow: hidden; left: 0;}
