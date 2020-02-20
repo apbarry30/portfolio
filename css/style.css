@@ -23,7 +23,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
-	color: #b7b7b7;
+
 	background-color:#010101;
 	-webkit-font-smoothing: antialiased;
 }
@@ -1166,14 +1166,14 @@ input:focus, textarea:focus, select:focus, button:focus {
     background-size: cover;
 }
 #circles-3{
-	background-image:url(http://placehold.it/200X200);
+	background-image:url("../images/coding.png");
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-4{
-	background-image:url(http://placehold.it/200X200);
+	background-image:url("../images/swift.png");
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;

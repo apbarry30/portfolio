@@ -46,9 +46,15 @@ body{ background-color: #dddddd; }
 .gdlr-item-title-wrapper .gdlr-item-title{ color: #292929; border-color: #292929; }
 .gdlr-item-title-divider{ border-color: #333333; }
 .gdlr-item-title-wrapper .gdlr-item-caption{ color: #9b9b9b; }
-body{ color: #808080; }
+body{ background-color: black; }
 
-body *{ border-color: #e5e5e5; }
+/* body *{ border-color: #e5e5e5;} */
+
+ body #skills{
+	background-color: #222;
+}
+
+
 .page-not-found-block{ background-color: #d65938; }
 .page-not-found-block{ color: #ffffff; }
 .page-not-found-search  .gdl-search-form input[type="text"]{ background-color: #963a20; }

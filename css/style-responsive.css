@@ -64,15 +64,7 @@ html body{ min-width: 300px; }
 }
 
 /*--- mobile landscape style ---*/
-@media only screen and (max-width: 767px) {
-	body .container{ max-width: 420px; }
-	body .body-wrapper.gdlr-boxed-style { max-width: 460px; }
-	body .body-wrapper{ overflow: hidden; }
 
-	.one-ninth, .one-eighth, .one-seventh,.one-fifth,
-	.two-fifth, .three-fifth, .four-fifth,
-	.one, .two, .three, .four, .five, .six, .seven,
-	.eight, .nine, .ten, .eleven, .twelve{ width: 100%; }
 
 	/*--- header ---*/
 	.top-navigation-container{ text-align: center; line-height: 1; }
