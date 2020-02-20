@@ -10,7 +10,7 @@ body {
 
 
 
-.prt_home_wrapper, #education_kitchen, #courage_project, #p5_game {
+.prt_home_wrapper, #education_kitchen, #courage_project, #p5_game, #php_project {
   background-image:none;
   background-color: #222;
   color: white;
@@ -24,7 +24,7 @@ h2,h3,h4, .h5{
 }
 
 .col-xs-b35{
-  width: auto;
+
 }
 .prt_main_wrapper{
 	position:relative;
@@ -134,14 +134,7 @@ body.mobile .overlay.frame.active{left: 30px;}
 
 .full-size{position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
 
-/*Phones (<768px)*/
-@media (max-width: 767px) {
-	.overlay.frame{left: 15px; top: 15px; right: 15px; bottom: 15px;}
-	.overlay.frame .overlay-cell-align{margin-top: -30px;}
-	.overlay.frame .cell-view.page-height{padding-top: 80px;}
-	.overlay.frame .button-close{top: 15px; right: 15px;}
-	body.mobile .overlay.frame.active{left: 15px;}
-}
+
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/

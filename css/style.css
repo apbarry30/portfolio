@@ -1565,7 +1565,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 @media (min-width: 540px) and (max-width: 619px) {
 	.prt_home_wrapper h1 {
 		padding:10px;
-		margin-top: 150px;
+		margin-top: 50px;
 	    font-size: 50px;
 	}
 
@@ -1584,7 +1584,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 @media (max-width: 539px) {
 	.prt_home_wrapper h1 {
 		padding:10px;
-		margin-top: 150px;
+		margin-top: 50px;
 	    font-size: 50px;
 	}
 	.prt_home_wrapper{
@@ -1619,7 +1619,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_home_wrapper h1 {
 	padding:10px;
-	margin-top: 100px;
+	margin-top: 50px;
     font-size: 50px;
 }
 .prt_counter_box {
