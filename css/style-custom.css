@@ -51,8 +51,10 @@ body{ background-color: black; }
 /* body *{ border-color: #e5e5e5;} */
 
  body #skills{
+	color: #e5e5e5;
 	background-color: #222;
 }
+
 
 
 .page-not-found-block{ background-color: #d65938; }

@@ -31,6 +31,9 @@ body {
 	display:none;
 }
 
+#port{
+	background-color: black;
+}
 
 .typed-cursor{
 	display:none;
@@ -383,6 +386,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	transform: rotateZ(-90deg);
 	margin-top:-15px;
 }
+
 .prt_menu_wrapper a.prt_right{
 	top:50%;
 	right:0px;
@@ -412,10 +416,12 @@ input:focus, textarea:focus, select:focus, button:focus {
 	padding-top: 50px;
 }
 .prt_about_details{
+		color: #e5e5e5;
 	display:inline-block;
 	width:100%;
 }
 .prt_about_details p{
+
 	margin-bottom:30px;
 }
 .prt_about_details a.prt_btn{
@@ -698,6 +704,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	margin-bottom:10px;
 }
 .prt_about_experience_info p{
+		color: #e5e5e5;
 	margin:0px;
 }
 .prt_profile_info{
@@ -1235,6 +1242,12 @@ input:focus, textarea:focus, select:focus, button:focus {
     z-index: 1;
     display: none;
 }
+#prtwrapper{
+	display: inline;
+	background-image: none;
+}
+
+
 .prt_loadmore{
 	display:none;
 }
