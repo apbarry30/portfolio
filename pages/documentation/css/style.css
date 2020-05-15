@@ -597,10 +597,10 @@ input, textarea {
 .na-features .des {
   position: absolute;
   display: block;
-  left: -110px;
-  top: 140px;
+  left: -100px;
+  top: 400px;
   margin: auto;
-  width: 260px;
+  width: 200px;
   background: #FFF;
   box-shadow: 0px 0px 3px #cccc;
   font-size: 14px;
@@ -610,7 +610,7 @@ input, textarea {
 
 .na-features .circle {
   border-radius: 50%;
-  background-color: #6f55eb;
+  background-color: blue;
   width: 20px;
   height: 20px;
   position: absolute;
@@ -1002,7 +1002,7 @@ input, textarea {
 }
 
 .na-subfooter .box-title span {
-  color: #1676f2;
+  color: yellow;
 }
 
 .na-subfooter p {
@@ -1028,7 +1028,7 @@ input, textarea {
 .na-subfooter .address {
   margin-top: 30px;
   font-size: 24px;
-  color: #ef4350;
+  color: #999900;
   padding-bottom: 5px;
   font-weight: 500;
 }
@@ -1102,8 +1102,8 @@ input, textarea {
 
 .btn-primary {
   color: #fff;
-  background-color: #6f55eb;
-  border-color: #6f55eb;
+  background-color: black;
+  border-color: #999900;
   border-radius: 5px;
 }
 
