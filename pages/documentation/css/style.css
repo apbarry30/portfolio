@@ -65,13 +65,13 @@ input, textarea {
 }
 
 .header-fixed.fixed {
-  background: #584ed1;
+  background: black;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 #na-header-wrapper {
   width: 100%;
-  background: url("../img/header-bg.jpg");
+  background: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -388,7 +388,7 @@ input, textarea {
 .na-guide {
   margin-top: 40px;
   width: 100%;
-  background: url("../img/guide-bg.jpg");
+  background: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -635,7 +635,7 @@ input, textarea {
 .na-reviews {
   margin-top: 90px;
   width: 100%;
-  background: url("../img/review-bg.jpg");
+  background: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -745,7 +745,7 @@ input, textarea {
   text-align: center;
   width: 50%;
   float: left;
-  background: url("../img/serviceleft-bg.jpg");
+  background: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -760,7 +760,7 @@ input, textarea {
   text-align: center;
   width: 50%;
   float: left;
-  background: url("../img/serviceright-bg.jpg");
+  background: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -831,7 +831,7 @@ input, textarea {
    ========================================================================================================== */
 .na-form {
   width: 100%;
-  background: url("../img/form-bg.jpg");
+  background: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -987,7 +987,7 @@ input, textarea {
    ========================================================================================================== */
 .na-subfooter {
   width: 100%;
-  background: url("../img/subbottom-bg.jpg");
+  background: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -1258,7 +1258,7 @@ input, textarea {
     color: #FFF;
     width: 30px;
     height: 3px;
-    background: #FFF;
+    background: #222;
     display: block;
     position: relative;
     margin: 7px 0;
