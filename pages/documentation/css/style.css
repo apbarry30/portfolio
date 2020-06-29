@@ -1032,6 +1032,8 @@ input, textarea {
 }
 
 .na-subfooter .address {
+  background-color: black;
+
   margin-top: 30px;
   font-size: 24px;
   color: #999900;
@@ -1040,8 +1042,18 @@ input, textarea {
 }
 
 .na-subfooter .des {
-  font-size: 14px;
+  background-color: black;
+  font-size: 16px;
   color: #9b9b9e;
+}
+#help {
+  color: #999000;
+  font-size: 40px;
+}
+#help:hover{
+
+  color: black;
+  background-color: #999000;
 }
 
 /* Slider =========================================================================================================   */
