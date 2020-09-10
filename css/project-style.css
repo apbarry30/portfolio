@@ -1,4 +1,5 @@
-body {
+
+}body {
   background-color: #222;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
@@ -77,6 +78,8 @@ h2,h3,h4, .h5{
 #content-block{position: relative; overflow: hidden; left: 0;}
 #content-block *:last-child:not(.empty-space){margin-bottom: 0;}
 .container{max-width: 100%;}
+
+
 @media (min-width: 992px) {
 	body.min-height .page-height{height: 600px!important;}
 }
@@ -264,6 +267,7 @@ header .follow .title, header .follow .entry{
 .portfolio-arrow.arrow-left:hover{background-position: 25px center;}
 .portfolio-arrow.arrow-right:hover{background-position: right 25px center;}
 /*Phones (<768px)*/
+
 @media (max-width: 767px) {
 	.banner-detail-portfolio{padding: 0 15px;}
 	.banner-detail-portfolio .portfolio-arrow.arrow-left, .banner-detail-portfolio .portfolio-arrow.arrow-right{position: relative; top: auto; margin: 0; left: auto; right: auto; float: left;}
