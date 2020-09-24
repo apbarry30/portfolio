@@ -1,79 +1,47 @@
-.prt_heading_wrapper{
-	text-align:center;
-}
-.prt_heading{
-	margin-bottom:50px;
-    display: inline-block;
-	position:relative;
-	-webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-.prt_heading h1{
-	font-size:40px;
-	margin:0px;
-	text-transform:uppercase;
-	position:relative;
-	width:auto;
-	font-weight:500;
-	padding-bottom:15px;
-}
 
-/* color for the moving text */
-.prt_heading p{
-    text-align: right;
-    width: auto;
-    text-transform: uppercase;
-    background-color: #010101;
-    margin: 0px;
-    padding-left: 10px;
-    position: absolute;
-    right: 0;
-    bottom: -10px;
-	color:#A8A6D3;
-    font-weight: 500;
-}
-.prt_heading_wrapper_2{
-	text-align:left;
-}
-.prt_heading_wrapper_2 .prt_heading{
-	margin-bottom:30px;
-}
-/*---------- Button css End -------*/
-.prt_btn{
-    height: 50px;
-    line-height: 50px;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 400;
-    border-radius: 0px;
-    padding: 0 20px;
-	min-width:140px;
-    outline: none;
-    cursor: pointer;
-    display: inline-block;
-	text-align:center;
-	text-transform:capitalize;
-	background-color:#A8A6D3;
-	border:1px solid #A8A6D3;
-	-webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-.prt_btn:hover, .prt_btn:focus{
-    color: #A8A6D3;
-    background-color: #111111;
-	border:1px solid #A8A6D3;
-	-webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Initiate Css
+	1. Reset
+	2. Wordpress Style ( caption / align style )
+2. Theme Style
+	1. Header
+	2. Sidebar
+	3. Footer
+3.) Content Item
+4.) Widget
+5.) Default Plugin
+6.) Goodlayers Soccer Plugin
+-------------------------------------------------------------------*/
+
+/*--- reset ---*/
+/*--- reset5 Â© 2011 opensource.736cs.com MIT ---*/
+html,body,div,span,applet,object,iframe,h2,h3,h4,h5,h6,blockquote,
+pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,
+s,samp,small,strike,strong,sub,sup,tt,var,b,i,center,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,audio,canvas,details,figcaption,figure,footer,header,hgroup,
+mark,menu,meter,nav,output,progress,section,summary,time,video{ border:0; outline:0;
+	font-size:100%; vertical-align:baseline; ; margin:0;padding:0; }
+article,aside,dialog,figure,footer,header,hgroup,nav,section,blockquote{ display:block; }
+nav ul{ list-style:none; }
+ol{ list-style:decimal; }
+ul{ list-style:disc; }
+ul ul{ list-style:circle; }
+blockquote,q{ quotes:none; }
+blockquote:before,blockquote:after,q:before,q:after{ content:none; }
+ins{ text-decoration:underline; }
+del{ text-decoration:line-through; }
+mark{ background:none; }
+abbr[title],dfn[title], acronym[title]{ border-bottom:1px dotted; cursor:help; }
+table{ border-collapse:collapse;border-spacing:0; }
+hr{ display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0;}
+input[type=submit],input[type=button],button{ margin:0; padding:0;}
+input,select,a img{ vertical-align:middle; }
+
+h1, b, strong{ font-weight: bold; }
+i, em{ font-style: italic; }
 
 /*--- clear ---*/
 .clear{ display: block; clear: both; visibility: hidden; line-height: 0; height: 0; zoom: 1; }
@@ -124,7 +92,7 @@ h2, h3, h4, h5, h6 { line-height: 1.3; margin-bottom: 18px; font-weight: 400; }
 /*----------------------------------------------------------------------*/
 
 /*--- structure ---*/
-.container{ padding: 0px; margin: 0px auto; /* position: relative; */ }
+.container{ padding: 0px; margin: 0px 10px; /* position: relative; */ }
 .column, .columns{ float: left; position: relative; min-height: 1px; }
 
 .one-ninth{ width: 11.111%; }
@@ -1120,7 +1088,6 @@ body.single .gdlr-blog-full{ border-bottom: 0px; }
 .gdlr-portfolio-info .gdlr-social-share,
 .gdlr-portfolio-info .gdlr-social-share a{ background: #e5e5e5; }
 .gdlr-portfolio-info .portfolio-info-wrapper{ background: #f3f3f3; }
-.gdlr-portfolio-info .portfolio-tag{ color: #A8A6D3; }
 
 .gdlr-portfolio-info .portfolio-info-wrapper{ padding: 25px 30px 20px; }
 .gdlr-portfolio-info .portfolio-info .info-head { font-weight: bold; margin-right: 7px; font-style: normal; }
@@ -1199,8 +1166,7 @@ body.single .gdlr-blog-full{ border-bottom: 0px; }
 .gdlr-classic-portfolio .portfolio-thumbnail .portfolio-overlay-content { position: absolute;
     top: 50%; left: 0px; right: 0px; text-align: center; opacity: 0; filter: alpha(opacity=0); }
 .gdlr-classic-portfolio .portfolio-title{ font-size: 14px; font-weight: bold; margin-bottom: 4px; }
-
-.gdlr-classic-portfolio .portfolio-info{ position: relative; font-style: italic; }
+.gdlr-classic-portfolio .portfolio-info{ position: relative; font-style: italic; font-weight:bold;}
 .gdlr-classic-portfolio .portfolio-info .info-head{ display: none; }
 .gdlr-classic-portfolio .gdlr-separator{ margin: 4px 0px; }
 .gdlr-classic-portfolio .excerpt-read-more{ display: none; }
@@ -1241,7 +1207,7 @@ body.single .gdlr-blog-full{ border-bottom: 0px; }
 
 .gdlr-portfolio-column-1 .portfolio-title { font-size: 20px; font-weight: 700; }
 .gdlr-portfolio-column-2 .portfolio-title { font-size: 19px; font-weight: 700; }
-.gdlr-portfolio-column-3 .portfolio-title { font-size: 20px; font-weight: 700; }
+.gdlr-portfolio-column-3 .portfolio-title { font-size: 18px; font-weight: 700; }
 .gdlr-portfolio-column-4 .portfolio-title { font-size: 17px; font-weight: 700; }
 
 .gdlr-portfolio-column-1 .gdlr-modern-thumbnail .portfolio-title { font-size: 16px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
@@ -1550,9 +1516,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device
 	color: #3d506d !important;
 }
 
-.portfolio-title a:hover{
-color: #A8A6D3;
-}
+
 
 .submit-button {
 	font-size: 15px;

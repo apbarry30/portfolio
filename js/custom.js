@@ -7,21 +7,21 @@ Assigned to: ThemeForest
 -------------------------------------------------------------------*/
 (function($){
   "use strict";
-	
+
 	// Preloader Js
 	jQuery(window).on('load', function() {
 		jQuery("#status").fadeOut();
 		jQuery("#preloader").delay(200).fadeOut("slow");
 	});
-	
+
 	// ready function
 	jQuery(document).ready(function($){
    		var $this = $(window);
-	
+
 	//bg window height Js
 	var window_height = window.innerHeight;
 		$(".prt_home_wrapper").css("height", window_height);
-	
+
 	//Portfolio Load More
 	$(".prt_loadmore").slice(0, 3).show();
     $("#loadMore").on('click', function (e) {
@@ -31,12 +31,12 @@ Assigned to: ThemeForest
             $("#load").fadeOut('slow');
         }
     });
-	
-	// for counter 
+
+	// for counter
 	$('.timer').appear(function() {
 		$(this).countTo();
 	});
-	
+
 	// About Page Profile Slider Js
 	$('.prt_profile_slider .owl-carousel').owlCarousel({
 		loop:true,
@@ -54,7 +54,7 @@ Assigned to: ThemeForest
 			}
 		}
 	});
-	
+
 	//Skills Charts
 	$('.prt_skills_wrapper').appear(function() {
 		var circle1 = Circles.create({
@@ -98,7 +98,7 @@ Assigned to: ThemeForest
 			duration: 900
 		});
 	});
-	
+
 	// Service Page Client Slider Js
 	$('.prt_client_slider .owl-carousel').owlCarousel({
 		loop:true,
@@ -118,7 +118,7 @@ Assigned to: ThemeForest
 			}
 		}
 	});
-	
+
 	// Portfolio popup Js
 	$('.popup-gallery').magnificPopup({
 		delegate: 'a.imageopen',
@@ -137,7 +137,7 @@ Assigned to: ThemeForest
 			}
 		}
 	});
-	
+
 	// Portfolio video Popup js
 	$('a.popup-youtube').magnificPopup({
 		disableOn: 0,
@@ -148,7 +148,7 @@ Assigned to: ThemeForest
 
 		fixedContentPos: false
 	});
-	
+
 	// Service Page Image Slides Js
 	$('div.prt_img_click').on('click' , function(){
 		if(!$(this).hasClass('active')){
@@ -159,17 +159,17 @@ Assigned to: ThemeForest
 			$('div.prt_services_slider_imgs').prepend(targetImg);
 			$('div.prt_services_slider_imgs img:first').addClass('active');
 			$('div.prt_services_slider_box .prt_img_click').removeClass('active');
-			$(this).addClass('active');	
+			$(this).addClass('active');
 		}
 	});
-	
+
 	// Open Close main Section Js
 	var AplCss;
 	var targetSection;
 	var tar;
 	var timing = 500;
 	$('div.prt_menu_wrapper a').on('click' , function(e){
-		e.preventDefault();
+		// e.preventDefault();
 		tar = $(this).attr('href').split('#')[1];
 		targetSection = $('.prt_'+tar+'_wrapper');
 		if(tar == 'about'){
@@ -187,7 +187,7 @@ Assigned to: ThemeForest
 	$('img.prt_close').on('click' , function(){
 		hide_section();
 	});
-	
+
 	$('img#prt_close_tab').on('click' , function(){
 		hide_section();
 	});
@@ -204,7 +204,7 @@ Assigned to: ThemeForest
 		setTimeout(function(){ targetSection.css('display', 'none'); }, timing);
 		targetSection.animate(AplCss, timing);
 	};
-	
+
 	// Contact Form Submission
 	function checkRequire(formId , targetResp){
 		targetResp.html('');
@@ -273,7 +273,7 @@ Assigned to: ThemeForest
 			});
 		}
 	});
-	
+
 	// Typed JS
 	$('.typed').each(function(){
 		var _this = $(this);
@@ -285,7 +285,7 @@ Assigned to: ThemeForest
 			loop: true
 		});
 	});
-		
+
 	});
-	
+
 })();
