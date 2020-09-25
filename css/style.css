@@ -294,7 +294,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	background-color: #000000;
 }
 .prt_home_wrapper{
-	/* background-image:url("../images/background.jpg"); */
+	background-image:url("../images/backgroundcolors.jpg");
 
 	background-color: #222;
 				/* http://placehold.it/1920X1080 */
@@ -1163,8 +1163,9 @@ input:focus, textarea:focus, select:focus, button:focus {
 	font-weight:500;
 }
 #canvas{
-	display:inline-block;
+	display:block;
 	width:100%;
+	height: 300px;
 }
 #canvas .circle {
 	display: inline-block;
