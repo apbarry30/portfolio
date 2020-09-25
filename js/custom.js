@@ -175,7 +175,7 @@ Assigned to: ThemeForest
 		if(tar == 'about'){
 			AplCss  = {'top':0};
 		}else if(tar == 'contact'){
-			AplCss  = {'left':0};
+			AplCss  = {'left':0, 'bottom': 0};
 		}else if(tar == 'services'){
 			AplCss  = {'top':0};
 		}else if(tar == 'portfolio'){
