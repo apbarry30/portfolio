@@ -175,9 +175,9 @@ Assigned to: ThemeForest
 		if(tar == 'about'){
 			AplCss  = {'top':0};
 		}else if(tar == 'contact'){
-			AplCss  = {'left':0, 'bottom': 0};
+			AplCss  = {'top':0, 'left': 0, 'right': 0};
 		}else if(tar == 'services'){
-			AplCss  = {'top':0};
+			AplCss  = { 'top':0, 'left': 0, 'right': 0};
 		}else if(tar == 'portfolio'){
 			AplCss  = {'right':0};
 		}
@@ -195,7 +195,7 @@ Assigned to: ThemeForest
 		if(tar == 'about'){
 			AplCss  = {'display':'none', 'top':'-100%'};
 		}else if(tar == 'contact'){
-			AplCss  = {'display':'none','left':'100%'};
+			AplCss  = {'display':'none','top':'-100%'};
 		}else if(tar == 'services'){
 			AplCss  = {'display':'none','bottom':'0' , 'top':'100%'};
 		}else if(tar == 'portfolio'){

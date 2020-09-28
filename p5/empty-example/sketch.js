@@ -5,9 +5,9 @@ var mods = [];
 var darkbg = false;
 
 function setup() {
-  var canvas = createCanvas(500,300);
-  canvas.parent('prt_home_wrapper');
-  background('none');
+  var canvas = createCanvas(300,300);
+  canvas.parent('play');
+  background('white');
   u = 50;
   u2 = (u/2)*sqrt(3);
   var highCount = (height/u)+3;
