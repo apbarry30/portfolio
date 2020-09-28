@@ -35,6 +35,7 @@ body {
 	background-color: black;
 }
 #port h1{
+
 	font-weight: 500;
 	font-size: 40px;
 }
@@ -63,32 +64,58 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color: #fffefe;
 }
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
-#amanda{
-	/* font-family: 'Dancing Script',cursive; */
-	text-align:right;
-	line-height: 1.7;
-	/* width: 500px; */
-	font-weight: 500;
-	font-size: 75px;
-	color:#A8A6D3;
-	padding: 40px;
-	padding-right: 0;
-	margin-bottom: 40px;
-	margin-top: 40px;
-	margin-right: 0;
+canvas {
+	display:block;
+	background-color: transparent;
+	fill:transparent;
+	right:0;
+	padding:5px;
+	margin-left: 50%;
+	margin-right: 10px;
+	margin-top:100px;
+	margin-bottom: 10px;
 }
-#designer{
-	margin-top: 40px;
+#amanda{
 	margin-left: 0;
+	width: 30%;
+	text-transform:uppercase;
+	position:absolute;
+	/* width:100% */
+	/* font-family: 'Dancing Script',cursive; */
+	/* text-align:right; */
+	line-height: 1.2;
+	/* width: 500px; */
+	font-weight: 550;
+	font-size: 105px;
+	color:#A8A6D3;
+	padding: 30px;
+	padding-top:100px;
+	padding-left:0 ;
+	margin-top:0px;
+	margin-right:10px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+
+}
+
+#designer{
+	background-color: none;
+	padding:0;
+	position: absolute;
+	margin-top:50px;
+	margin-right:50px;
+	margin-left:-40px;
 	margin-bottom: 40px;
-	padding: 40px;
-	padding-left: 0;
-	font-weight: 500;
-	font-size: 75px;
+	font-weight: 300;
+	font-size: 60px;
 	color:white;
 	text-transform:uppercase;
+	z-index: 0;
+}
 
+#designer_div{
+	margin: 0;
+	background-color: none;
 }
 
 img {
@@ -110,7 +137,6 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_toppadder30{
 	padding-top:30px;
-	background-color: #222;
 }
 .prt_toppadder40{
 	padding-top:40px;
@@ -204,8 +230,8 @@ input:focus, textarea:focus, select:focus, button:focus {
 	text-align:center;
 }
 .prt_heading{
-	margin-bottom:50px;
-    display: inline-block;
+	/* margin-bottom:50px; */
+  display: inline-block;
 	position:relative;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -213,7 +239,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-.prt_heading h1{
+/* .prt_heading h1{
 	font-size:40px;
 	margin:0px;
 	text-transform:uppercase;
@@ -221,7 +247,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	width:auto;
 	font-weight:500;
 	padding-bottom:15px;
-}
+} */
 
 /* color for the moving text */
 .prt_heading p{
@@ -234,7 +260,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     position: absolute;
     right: 0;
     bottom: -10px;
-	color:#A8A6D3;
+		color:#A8A6D3;
     font-weight: 500;
 }
 .prt_heading_wrapper_2{
@@ -284,25 +310,26 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_main_wrapper::-webkit-scrollbar-track{
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #666666;
+	background-color: #333;
 }
 .prt_main_wrapper::-webkit-scrollbar{
 	width: 0.1px;
-	background-color: #F5F5F5;
+	background-color: #333;
 }
 .prt_main_wrapper::-webkit-scrollbar-thumb{
-	background-color: #000000;
+	background-color: #333;
 }
-.prt_home_wrapper{
-	background-image:url("../images/backgroundcolors.jpg");
 
-	background-color: #222;
+.prt_home_wrapper{
+	/* background-image:url("../images/backgroundcolors.jpg"); */
+
+	background-color: #333;
 				/* http://placehold.it/1920X1080 */
 	background-position: center center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	position:relative;
-	overflow-y:auto;
+	overflow-y:hidden;
     padding: 100px 0px;
 }
 .prt_home_wrapper h1{

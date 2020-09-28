@@ -10,6 +10,12 @@
 <meta name="keywords" content=" Portfolio, cv, business, amanda, barry, university, miami, interation, interactive, designer, UX, UI, website, design, 3d">
 <meta name="author" content="hsoft" >
 <meta name="MobileOptimized" content="320">
+
+<script src="p5/p5.min.js"></script>
+<script src="p5/addons/p5.dom.min.js"></script>
+<script src="p5/addons/p5.sound.min.js"></script>
+<script src="p5/empty-example/sketch.js"></script>
+
 <!--Srart Style -->
 <link rel="stylesheet" type="text/css" href="css/animate.css">
 <link rel="stylesheet" type="text/css" href="css/fonts.css">
@@ -34,7 +40,7 @@
 <!-- Favicon Link -->
 <link rel="shortcut icon" type="image/png" href="images/header/favicon.png">
 </head>
-<body>
+<body id ="body">
 <!--Preloader Start-->
 <div id="preloader">
 	<div id="status">
@@ -42,8 +48,8 @@
 	</div>
 </div>
 <!--Main Wrapper Start-->
-<div class="prt_main_wrapper">
-	<div class="prt_home_wrapper">
+<div class="prt_main_wrapper" id="prt_main_wrapper">
+	<div class="prt_home_wrapper" id="prt_home_wrapper">
 		<div class="prt_logo_wrapper">
 
 			<!-- this is the logo that turns on the left corner -->
@@ -68,16 +74,18 @@
 				<div>
 					<!-- <img id="backgroundimage" src="images/background.png" alt="background"> -->
 					<div class="prt_heading col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<!-- <div> -->
+
 						<h1 id = "amanda">Amanda Barry</h1>
+
+
 						<!-- <p id= "designer">Digital Designer</p> -->
 
 
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<!-- <div> -->
+					<div class="prt_heading col-lg-6 col-md-6 col-sm-12 col-xs-12" id="designer">
 
-						<p id= "designer">Digital Designer</p>
+
+						Digital Designer
 
 
 					</div>
