@@ -95,12 +95,37 @@ body {
 
 
 
-.prt_home_wrapper, #education_kitchen, #courage_project, #p5_game, #php_project, #graffiti {
+.prt_main_wrapper #education_kitchen {
   background-image:none;
   background-color: #222;
   color: white;
-  height: auto;
+  overflow-y: scroll;
 }
+.prt_main_wrapper #courage_project{
+  background-image:none;
+  background-color: #222;
+  color: white;
+  overflow-y: scroll;
+  }
+  .prt_main_wrapper #graffiti{
+     background-image:none;
+     background-color: #222;
+     color: white;
+     overflow-y: scroll;
+}
+.prt_main_wrapper #p5_game{
+  background-image:none;
+  background-color: #222;
+  color: white;
+  overflow-y: scroll;
+
+  }
+  .prt_main_wrapper #php_project{
+    background-image:none;
+    background-color: #222;
+    color: white;
+    overflow-y: scroll;
+  }
 
 
 h2,h3,h4, .h5{
@@ -114,6 +139,8 @@ h2,h3,h4, .h5{
 .prt_main_wrapper{
 	position:relative;
 	overflow-x:hidden;
+  overflow-y: scroll;
+
 }
 
 .prt_home_wrapper h1{
@@ -230,6 +257,17 @@ body.mobile .overlay.frame.active{left: 30px;}
 	background-color:#0a0a0a;
   margin:0;
 }
+.footer-wrapper{ position: relative; background-repeat: no-repeat; background-position: right top; }
+.footer-wrapper a { cursor: pointer; }
+.footer-wrapper .widget.gdlr-widget { margin-bottom: 60px; }
+.footer-wrapper .gdlr-widget-title { margin-bottom: 30px; font-size: 16px; }
+.footer-container{ padding-top: 60px; }
+.ie7 .footer-wrapper{ overflow: hidden; }
+
+.copyright-left { margin: 0px 15px; float: left; }
+.copyright-right { margin: 0px 15px; float: right; }
+.copyright-wrapper{ border-top-width: 1px; border-top-style: solid; }
+.copyright-container{ padding: 15px 0px; }
 
 .prt_footer_wrapper p{
     display: inline-block;
