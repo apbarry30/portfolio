@@ -64,14 +64,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color: #fffefe;
 }
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+#defaultCanvas0{
+	height: 300px;
+	width: 300px;
+}
+
 canvas {
-	display:inline-block;
+	display:block;
 	background-color: transparent;
 	fill:transparent;
 	padding:5px;
 	margin-right: 10px;
 	margin-top:50px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 #play{
@@ -1486,19 +1492,42 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 /*---------- Main Wrapper css End -------*/
 /*---------- Responsive css Start -------*/
+/*
 @media (min-width: 992px) and (max-width: 1199px) {
+
+canvas{
+	display:none;
+}
+
 .prt_counter_box {
     padding-left: 50px;
 }
 
+} */
 /* FONT SIZE ON THE HOME */
-.prt_home_wrapper h1 {
+/* .prt_home_wrapper h1 {
   font-size: 100px;
 	margin:0px;
-}
+} */
 
-}
+
 @media (min-width: 768px) and (max-width: 991px) {
+
+	canvas{
+		height: 300px;
+		display:none;
+	}
+
+	.prt_counter_box {
+	    padding-left: 50px;
+	}
+
+	/* FONT SIZE ON THE HOME */
+	.prt_home_wrapper h1 {
+	  font-size: 100px;
+		margin:0px;
+	}
+
 	.prt_home_wrapper{
 		background-image:none;
 		background-color: #222;
@@ -1554,6 +1583,12 @@ input:focus, textarea:focus, select:focus, button:focus {
 
 }
 @media (max-width: 767px) {
+
+	canvas{
+		height: 300px;
+		display:none;
+	}
+
 	.prt_home_wrapper{
 		background-image:none;
 		background-color: #222;
@@ -1613,6 +1648,10 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 }
 @media (min-width: 620px) and (max-width: 700px) {
+	canvas{
+		display:none;
+		height: 300px;
+	}
 	.prt_home_wrapper{
 		background-image:none;
 		background-color: #222;
@@ -1631,6 +1670,10 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 }
 @media (min-width: 540px) and (max-width: 619px) {
+	canvas{
+		display: none;
+		height: 300px;
+	}
 	.prt_home_wrapper h1 {
 		/* padding:10px;
 		margin-top: 50px;
@@ -1650,6 +1693,10 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 }
 @media (max-width: 539px) {
+	canvas{
+		display: none;
+		height: 300px;
+	}
 	.prt_home_wrapper h1 {
 		/* padding:10px;
 		margin-top: 50px;
@@ -1668,10 +1715,12 @@ input:focus, textarea:focus, select:focus, button:focus {
     margin-left: 0px;
 }
 }
-@media (min-width: 480px) and (max-width: 767px) {
 
-}
 @media (max-width: 479px) {
+	canvas{
+		display: none;
+		height: 300px;
+	}
 	.prt_home_wrapper{
 		background-image:none;
 		background-color: #222;
@@ -1726,6 +1775,10 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 }
 @media (max-width: 390px) {
+	canvas{
+		display:none;
+		height: 300px;
+	}
 	.prt_home_wrapper{
 		background-image:none;
 		background-color: #222;
