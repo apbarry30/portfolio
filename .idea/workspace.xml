@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62814214-116d-491b-9eb7-3eadf0c263ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-grid-3-columns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p5/empty-example/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/p5/empty-example/sketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,5 +55,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

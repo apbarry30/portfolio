@@ -5,7 +5,7 @@ var mods = [];
 var darkbg = false;
 
 function setup() {
-  var canvas = createCanvas(300,300);
+  var canvas = createCanvas(600,600);
   canvas.parent('play');
   background('white');
   u = 50;
