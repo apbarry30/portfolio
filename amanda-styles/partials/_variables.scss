@@ -1,0 +1,58 @@
+/*** DEBUG ****/
+// Set true for debugging - this will show the media query breakpoints //
+$debug: true;
+
+/*COLORS*/
+$black: #000;
+$white: #fff;
+$offWhite: #F8FBFF;
+$fontColor: #333;
+$gray: #EAEAEA;
+$darkGray:  #302f31;
+$medGray:  #626363;
+$textGray: #696767;
+$lightGray: #EAEAEA;
+$headerColor: $white;
+$footerColor: $gray;
+
+$errorColor: #FF4200;
+
+// Theme Colors
+$accent: #AFAFAF;
+$accentColor: $accent;
+$primary: #fff;
+$secondary: #000;
+$pColor: $secondary;
+$gradient: transparent linear-gradient(180deg, #0246A8 0%, #00B7FF 75%, #00F5FF 100%) 0% 0% no-repeat padding-box;
+$gradient-rev:transparent linear-gradient(0deg, #0246A8 0%, #00B7FF 75%, #00F5FF 100%) 0% 0% no-repeat padding-box;
+$btn-gradient: transparent linear-gradient(270deg, #00ADF1 0%, #00ADF1 8%, #00D4DD 100%) 0% 0% no-repeat padding-box;
+$hero-gradient: transparent linear-gradient(180deg, #003CB2 8%, #00ADF1 100% ) 0% 0% no-repeat padding-box;
+$line-gradient: transparent linear-gradient(270deg,#0246A8 0%,#00ADF1 75%, #00D4DD 100%) 0% 0% no-repeat padding-box;
+
+/* SIZES */
+$container: 1860px;
+
+/* TYPOGRAPHY */
+$fontMain: mr-eaves-modern;
+$fontMainSans: mr-eaves-modern;
+$fontBody: mr-eaves-modern;
+
+$fontHeader: ambroise-std;
+
+$regular: 400;
+$medium: 700;
+$bold: 800;
+
+$letterspace: -0.5px;
+$lineheight : 25px;
+
+$btn-border-radius: 5px;
+
+/* MEDIA QUERY BREAKPOINTS */
+
+$breakpoint-desktop-large : 1700px;
+$breakpoint-desktop-med : 1440px;
+$breakpoint-desktop-small : 1060px;
+$breakpoint-tablet-large : 991px;
+$breakpoint-tablet : 785px;
+$breakpoint-phone : 480px;
