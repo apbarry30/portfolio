@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="62814214-116d-491b-9eb7-3eadf0c263ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amanda-styles/amanda.css" beforeDir="false" afterPath="$PROJECT_DIR$/amanda-styles/amanda.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amanda-styles/amanda.scss" beforeDir="false" afterPath="$PROJECT_DIR$/amanda-styles/amanda.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amanda-styles/prepros.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amanda-styles/sections/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/amanda-styles/sections/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amanda-styles/sections/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/amanda-styles/sections/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -49,6 +56,7 @@
       <updated>1630946551185</updated>
       <workItem from="1630946553224" duration="935000" />
       <workItem from="1633749409089" duration="3699000" />
+      <workItem from="1641766724524" duration="481000" />
     </task>
     <servers />
   </component>

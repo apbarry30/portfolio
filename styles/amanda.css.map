@@ -1,1 +1,1 @@
-{"version":3,"sources":["../amanda-styles/partials/_variables.scss","../amanda-styles/sections/footer.scss","amanda.css","../amanda-styles/sections/main.scss"],"names":[],"mappings":"AAAA,eAAA;AAIA,SAAA;AA2BA,UAAA;AAGA,eAAA;AAgBA,4BAAA;AClDA;EACE,gBAAA;ACMF;;ACPA;EACE,aAAA;ADUF","file":"amanda.css"}
+{"version":3,"sources":["../amanda-styles/partials/_variables.scss","../amanda-styles/sections/main.scss","amanda.css"],"names":[],"mappings":"AAAA,eAAA;AAIA,SAAA;AA2BA,UAAA;AAGA,eAAA;AAgBA,4BAAA;AClDA;EACE,YAAA;ACMF","file":"amanda.css"}
